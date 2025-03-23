@@ -42,17 +42,7 @@ function Footer() {
             </NavLink>
           </NavItem>
         </Nav> */}
-        <div className="copyright">
-          © {new Date().getFullYear()} made with{" "}
-          <i className="tim-icons icon-heart-2" /> for{" "}
-          <a
-            href="https://www.creative-tim.com/?ref=bdr-user-archive-footer"
-            target="_blank"
-          >
-            Land Registration
-          </a>{" "}
-          for a Step towards Digitalization.
-        </div>
+        
       </Container>
     </footer>
   );

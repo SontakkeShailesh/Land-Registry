@@ -13,7 +13,7 @@ const drizzleOptions = {
 
 var rows = [];
 for (var i = 1; i < 5; i++) {
-    rows.push(<ContractData contract="Land" method="getArea" methodArgs={[i, { from: "0xe0786c396EEf88a42782cfd63D2329cA14b62C4C" }]} />);
+    rows.push(<ContractData contract="Land" method="getArea" methodArgs={[i, { from: "0x113bcBEE8254c6C44a1bb1F3A338315128cdD6Fe" }]} />);
 }
 
 function App() {

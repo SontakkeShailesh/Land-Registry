@@ -1,23 +1,33 @@
+
+
+
+::-webkit-textfield-decoration-container{
+	background-color: #09a23c;
+}
+
 .main-section{
 	width:100%;
 	margin:0 auto;
 	text-align: center;
+	background-color: #737e82;
+	
 	
 }
 .dashbord{
 	width:100%;
     display: inline-block;
     font-size: 22px;
-	background-color:#34495E;
-	color:#fff;
+	background-color: #22066f;
+	color:#2e0f51;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px; 
+	background-image: url('');
 }
 .icon-section i{
 	font-size: 30px;
 	padding:10px;
-	border:1px solid #fff;
+	border:1px solid #09a23c;
 	border-radius:50%;
 	margin-top:-25px;
 	margin-bottom: 10px;
@@ -27,7 +37,21 @@
 	margin:0px;
 	font-size: 26px;
 	padding-bottom: 10px;
+
 }
+
+
+.btn-fill {
+	/* Your CSS styles for the button go here */
+	background-color: #3498db; /* Example color */
+	color: #ffffff; /* Example text color */
+	/* Add any other styles you need */
+	
+}
+  
+
+
+
 .detail-section{
 	background-color: #2F4254;
     padding: 5px 0px;
@@ -41,14 +65,20 @@
 	color:#fff;
 	text-decoration: none;
 }
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    background-color: revert;
+}
+
 .dashbord-orange .icon-section,.dashbord-orange .icon-section i{
-	background: #800080;  /* fallback for old browsers */
+	background: #6f0614;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .dashbord-orange .detail-section{
-	background-color:#800080; 
+	background-color:#ab11cd; 
 }
 .dashbord-blue .icon-section,.dashbord-blue .icon-section i{
 	background: #603813;  /* fallback for old browsers */
@@ -57,14 +87,14 @@ background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, F
     
 }
 .dashbord-blue .detail-section{
-	background-color:#603813;
+	background-color:#302a05;
 }
 .dashbord-skyblue .icon-section,.dashbord-skyblue .icon-section i{
-    background: #808080;  /* fallback for old browsers */
+    background: #890808;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
 .dashbord-skyblue .detail-section{
-	background-color: #3fada8; 
+	background-color: #0aa6ac; 
 }

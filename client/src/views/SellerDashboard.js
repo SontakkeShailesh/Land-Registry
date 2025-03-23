@@ -99,12 +99,12 @@ class SDash extends Component {
 
 
       for (var i = 1; i < count + 1; i++) {
-        rowsArea.push(<ContractData contract="Land" method="getArea" methodArgs={[i, { from: "0xa42A8B478E5e010609725C2d5A8fe6c0C4A939cB" }]} />);
-        rowsCity.push(<ContractData contract="Land" method="getCity" methodArgs={[i, { from: "0xa42A8B478E5e010609725C2d5A8fe6c0C4A939cB" }]} />);
-        rowsState.push(<ContractData contract="Land" method="getState" methodArgs={[i, { from: "0xa42A8B478E5e010609725C2d5A8fe6c0C4A939cB" }]} />);
-        rowsPrice.push(<ContractData contract="Land" method="getPrice" methodArgs={[i, { from: "0xa42A8B478E5e010609725C2d5A8fe6c0C4A939cB" }]} />);
-        rowsPID.push(<ContractData contract="Land" method="getPID" methodArgs={[i, { from: "0xa42A8B478E5e010609725C2d5A8fe6c0C4A939cB" }]} />);
-        rowsSurvey.push(<ContractData contract="Land" method="getSurveyNumber" methodArgs={[i, { from: "0xa42A8B478E5e010609725C2d5A8fe6c0C4A939cB" }]} />);
+        rowsArea.push(<ContractData contract="Land" method="getArea" methodArgs={[i, { from: "0x113bcBEE8254c6C44a1bb1F3A338315128cdD6Fe" }]} />);
+        rowsCity.push(<ContractData contract="Land" method="getCity" methodArgs={[i, { from: "0x113bcBEE8254c6C44a1bb1F3A338315128cdD6Fe" }]} />);
+        rowsState.push(<ContractData contract="Land" method="getState" methodArgs={[i, { from: "0x113bcBEE8254c6C44a1bb1F3A338315128cdD6Fe" }]} />);
+        rowsPrice.push(<ContractData contract="Land" method="getPrice" methodArgs={[i, { from: "0x113bcBEE8254c6C44a1bb1F3A338315128cdD6Fe" }]} />);
+        rowsPID.push(<ContractData contract="Land" method="getPID" methodArgs={[i, { from: "0x113bcBEE8254c6C44a1bb1F3A338315128cdD6Fe" }]} />);
+        rowsSurvey.push(<ContractData contract="Land" method="getSurveyNumber" methodArgs={[i, { from: "0x113bcBEE8254c6C44a1bb1F3A338315128cdD6Fe" }]} />);
       }
 
 

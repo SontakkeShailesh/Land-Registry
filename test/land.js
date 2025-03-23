@@ -141,7 +141,7 @@ contract("Land", function(accounts){
     it("allows a registered and verified seller to edit his/her profile", function() {
         return Land.deployed().then(function(instance) {
             landReginstance = instance;
-            return landReginstance.updateSeller("Vrinda Ahuja", 21, "aadhar123456", "pannumber", "ten", {from: seller});
+            return landReginstance.updateSeller("Vrindavani Ahuje", 21, "aadhar123456", "pannumber", "ten", {from: seller});
         }).then(function(receipt) {
           assert.equal(receipt.logs.length, 0, "Receipt");
           return landReginstance.sellersCount();

@@ -79,9 +79,9 @@ export default class Login extends Component {
 
                 <div className="bodyC">
                     <div className="img-wrapper">
-                        <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
+                        <img src="" className="logo" />
                         <div className="wine-text-container">
-                            <div className="site-title wood-text">Land Registry</div>
+                            <div className="site-title wood-text"></div>
                         </div>
                     </div>
                     <div className="auth-wrapper">
@@ -102,16 +102,16 @@ export default class Login extends Component {
                     <h3 style={{ color: "wheat" }}>Help?</h3>
                 </a>
                 <div className="img-wrapper">
-                    <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
+                    
                     <div className="wine-text-container">
-                        <div className="site-title wood-text">Land Registry</div>
+                        <div className="site-title wood-text"></div>
                     </div>
                 </div>
                 <div className="auth-wrapper">
                     <div className="auth-inner">
                         <div>
-                            <h1 style={{ letterSpacing: "3px", fontWeight: 500, color: "black" }}>Welcome !</h1>
-                            <h4 style={{ letterSpacing: "2px", color: 'black' }}>Making the Most of Digital Era!</h4>
+                            <h1 style={{ letterSpacing: "3px", fontWeight: 500, color: "black" }}>Welcome To!</h1>
+                            
                             <hr
                                 style={{
                                     color: "#696969",

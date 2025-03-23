@@ -23,7 +23,7 @@
     #container #searchBox {
       width: 25em; }
     #container ul {
-      background-color: white; }
+      background-color: rgb(126, 14, 14); }
     #container .question {
       border: 1px solid #CCC;
       padding: 2em; }
@@ -34,3 +34,8 @@
         color: #a3a3a3; }
     #container .question:hover span {
       color: #ff8422; }
+
+      ::after, ::before {
+        box-sizing: border-box;
+        background-color: aliceblue;
+      }
